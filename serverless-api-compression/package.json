@@ -1,0 +1,61 @@
+{
+  "_args": [
+    [
+      "serverless-api-compression@1.0.1",
+      "D:\\Elipo\\ELIPO-Master"
+    ]
+  ],
+  "_development": true,
+  "_from": "serverless-api-compression@1.0.1",
+  "_id": "serverless-api-compression@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-lABayrdThGq3GWLGR0SsnkqcHfKpQ9KsPuxtMMa2QecXzEFiT50vROX9eo4eMRSJm9Ge8EUdULfRybvhC/KGwA==",
+  "_location": "/serverless-api-compression",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "serverless-api-compression@1.0.1",
+    "name": "serverless-api-compression",
+    "escapedName": "serverless-api-compression",
+    "rawSpec": "1.0.1",
+    "saveSpec": null,
+    "fetchSpec": "1.0.1"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/serverless-api-compression/-/serverless-api-compression-1.0.1.tgz",
+  "_spec": "1.0.1",
+  "_where": "D:\\Elipo\\ELIPO-Master",
+  "author": {
+    "name": "Eugene Kireev"
+  },
+  "bugs": {
+    "url": "https://github.com/evgenykireev/serverless-api-compression/issues"
+  },
+  "description": "Serverless plugin that enables/disables content compression setting in API Gateway",
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-mocha": "^4.12.1"
+  },
+  "engines": {
+    "node": ">=6.1"
+  },
+  "homepage": "https://github.com/evgenykireev/serverless-api-compression#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "serverless-api-compression",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgenykireev/serverless-api-compression.git"
+  },
+  "scripts": {
+    "lint": "eslint --env node ./",
+    "lint:fix": "eslint --env node ./ --fix"
+  },
+  "version": "1.0.1"
+}
